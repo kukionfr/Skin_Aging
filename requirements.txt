@@ -1,0 +1,15 @@
+numpy
+scipy
+pandas
+xlrd
+matplotlib
+seaborn
+opencv-python
+pillow
+scikit-image
+scikit-learn
+joblib
+
+
+# conda install tensorflow-gpu==1.12.0 this version is compatible with matterport/mask-rcnn
+# openslide-python can be only installed using setuptools<46.0.0
