@@ -25,8 +25,7 @@ if not os.path.exists(dst): os.mkdir(dst)
 # fns = ['Wirtz.Denis_OTS-19_5021-022','5619_Wirtz.Denis_OTS-19_5619-026','5619_Wirtz.Denis_OTS-19_5619-028',
 #        '5619_Wirtz.Denis_OTS-19_5619-009','5619_Wirtz.Denis_OTS-19_5619','5619_Wirtz.Denis_OTS-19_5619-007']
 
-fns = ['5619_Wirtz.Denis_OTS-19_5619-026'
-       '']
+fns = ['5619_Wirtz.Denis_OTS-19_5619-028']
 
 for fn in fns:
     rois = []
