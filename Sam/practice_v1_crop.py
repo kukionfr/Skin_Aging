@@ -6,7 +6,7 @@ from PIL import Image
 Image.MAX_IMAGE_PIXELS = 999999999
 
 #for every parameter spreadsheet, find accompanying tissue image
-src = r'\\motherserverdw\Kyu_Sync\server for undergrads\SAM\fibroblast_detection_v1'
+src = r'\\motherserverdw\Kyu_Sync\server for undergrads\SAM\fibroblast_detection_v1\38'
 csvs = [f for f in os.listdir(src) if os.path.isfile(os.path.join(src, f)) and "parameter" in f]
 
 #iterate through each spread sheet find the centroid of each fibroblast

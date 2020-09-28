@@ -18,8 +18,8 @@ from copy import deepcopy
 
 svs_src = r'\\10.162.80.6\Kyu_Sync\Aging\data\svs'
 # fns = [os.path.splitext(_)[0] for _ in os.listdir(svs_src) if _.lower().endswith('svs')]
-fns = ['5619_Wirtz.Denis_OTS-19_5619-037', '5619_7Wirtz.Denis_OTS-19_5619-038', '5619_Wirtz.Denis_OTS-19_5619-024','5619_Wirtz.Denis_OTS-19_5619-004','5619_Wirtz.Denis_OTS-19_5619-001', '5619_Wirtz.Denis_OTS-19_5619-002', '5619_Wirtz.Denis_OTS-19_5619-018','5619_Wirtz.Denis_OTS-19_5619-017','5619_Wirtz.Denis_OTS-19_5619-022']
-
+fns = ['5619_Wirtz.Denis_OTS-19_5619-038']
+#'5619_Wirtz.Denis_OTS-19_5619-037','5619_Wirtz.Denis_OTS-19_5619-024','5619_Wirtz.Denis_OTS-19_5619-004','5619_Wirtz.Denis_OTS-19_5619-001', '5619_Wirtz.Denis_OTS-19_5619-002', '5619_Wirtz.Denis_OTS-19_5619-018','5619_Wirtz.Denis_OTS-19_5619-017','5619_Wirtz.Denis_OTS-19_5619-022'
 dst = os.path.join(svs_src,'fibroblast_detection_v1')
 if not os.path.exists(dst): os.mkdir(dst)
 
