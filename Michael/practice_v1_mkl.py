@@ -21,8 +21,9 @@ svs_src = r'\\motherserverdw\Kyu_Sync\Aging\data\svs'
 # fns = [os.path.splitext(_)[0] for _ in os.listdir(svs_src) if _.lower().endswith('svs')]
 # print(fns)
 
-fns = ['Wirtz.Denis_OTS-19_5021-019.svs','Wirtz.Denis_OTS-19_5021-014.svs','Wirtz.Denis_OTS-19_5021-006.svs','Wirtz.Denis_OTS-19_5021-017.svs',
-       'Wirtz.Denis_OTS-19_5021-003.svs','Wirtz.Denis_OTS-19_5021-011.svs','Wirtz.Denis_OTS-19_5021-016.svs']
+fns = ['5619_Wirtz.Denis_OTS-19_5619-029.svs', '5619_Wirtz.Denis_OTS-19_5619-034.svs',
+       '5619_Wirtz.Denis_OTS-19_5619-025.svs', '5619_Wirtz.Denis_OTS-19_5619-035.svs']
+fns = [x[:-4] for x in fns]
 
 dst = r'\\motherserverdw\Kyu_Sync\server for undergrads\Charlotte+Michael\fibroblast_detection_v1'
 if not os.path.exists(dst): os.mkdir(dst)
